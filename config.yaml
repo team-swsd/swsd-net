@@ -13,8 +13,9 @@ DefaultContentLanguage: ja
 hasCJKLanguage: true
 
 permalinks:
-    post: /p/:slug/
-    page: /:slug/
+    post: /post/:filename/
+    blog: /blog/:filename/
+    page: /:filename/
 
 params:
     mainSections:
@@ -67,7 +68,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:
+            site: team_swsd
 
             # Available values: summary, summary_large_image
             card: summary_large_image
