@@ -1,7 +1,6 @@
 baseurl: https://swsd.net
 languageCode: ja-jp
 theme: stack
-paginate: 5
 title: Team SWSD
 DefaultContentLanguage: ja
 
@@ -10,7 +9,7 @@ DefaultContentLanguage: ja
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: true
+hasCJKLanguage: true 
 
 permalinks:
     post: /post/:filename/
@@ -131,3 +130,7 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
+
+# 新しい設定
+pagination:
+  pagerSize: 10
